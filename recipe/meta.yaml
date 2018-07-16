@@ -1,6 +1,6 @@
 {% set name = "rply" %}
-{% set version = "0.7.4" %}
-{% set sha256 = "723303d6c5f05a7ee19f59531f66c8c7d41cfaef2676057369db1eb5520b378b" %}
+{% set version = "0.7.5" %}
+{% set sha256 = "50c2bf9fe02514bce46de4373bbdb398d7b812061d239306f9baff9210126453" %}
 
 package:
   name: {{ name|lower }}
