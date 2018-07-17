@@ -1,6 +1,6 @@
 {% set name = "rply" %}
-{% set version = "0.7.5" %}
-{% set sha256 = "50c2bf9fe02514bce46de4373bbdb398d7b812061d239306f9baff9210126453" %}
+{% set version = "0.7.6" %}
+{% set sha256 = "ab443c6c90539ec4d720da3023ab7a5e38e9222c8765a45f759d06df3564dda9" %}
 
 package:
   name: {{ name|lower }}
@@ -12,11 +12,13 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  noarch: python
+  number: 1
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
-  build:
+  host:
+    - pip
     - python
     - setuptools
     - appdirs

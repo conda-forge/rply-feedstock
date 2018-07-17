@@ -17,14 +17,15 @@ of David Beazley’s awesome PLY, with a new public API, and RPython support.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/rply-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/rply-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/rply-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/rply-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/rply-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/rply-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/rply-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/rply-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/rply/badges/version.svg)](https://anaconda.org/conda-forge/rply)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/rply/badges/downloads.svg)](https://anaconda.org/conda-forge/rply)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-rply-green.svg)](https://anaconda.org/conda-forge/rply) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rply.svg)](https://anaconda.org/conda-forge/rply) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rply.svg)](https://anaconda.org/conda-forge/rply) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rply.svg)](https://anaconda.org/conda-forge/rply) |
 
 Installing rply
 ===============
