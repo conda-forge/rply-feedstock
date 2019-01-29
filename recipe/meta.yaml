@@ -1,6 +1,6 @@
 {% set name = "rply" %}
-{% set version = "0.7.6" %}
-{% set sha256 = "ab443c6c90539ec4d720da3023ab7a5e38e9222c8765a45f759d06df3564dda9" %}
+{% set version = "0.7.7" %}
+{% set sha256 = "4d6d25703efd28fb3d5707f7b3bd4fe66c306159a5c25af10ba26d206a66d00d" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
