@@ -1,6 +1,6 @@
 {% set name = "rply" %}
-{% set version = "0.7.7" %}
-{% set sha256 = "4d6d25703efd28fb3d5707f7b3bd4fe66c306159a5c25af10ba26d206a66d00d" %}
+{% set version = "0.7.8" %}
+{% set sha256 = "2a808ac25a4580a9991fc304d64434e299a8fc75760574492f242cbb5bb301c9" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -35,7 +35,7 @@ about:
   home: https://github.com/alex/rply
   license: BSD
   license_file: LICENSE
-  summary: 'A pure Python Lex/Yacc that works with RPython'
+  summary: A pure Python Lex/Yacc that works with RPython
   description: |
     Welcome to RPLY! A pure python parser generator, that
     also works with RPython. It is a more-or-less direct port
